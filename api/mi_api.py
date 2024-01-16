@@ -3,6 +3,7 @@
 import json
 
 def handler(req, res):
+print("Test nico")
     if req.method == 'POST':
         # Obtiene los datos de la solicitud POST
         data = json.loads(req.body)
